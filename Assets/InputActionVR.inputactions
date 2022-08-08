@@ -1,0 +1,94 @@
+{
+    "name": "InputActionVR",
+    "maps": [
+        {
+            "name": "VR",
+            "id": "8117d16f-6af2-4777-9e85-1a5cf9494b89",
+            "actions": [
+                {
+                    "name": "Press_Grip_L",
+                    "type": "Button",
+                    "id": "a74c2f9e-bdd6-4ce9-a531-7e104c057c82",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press_Grip_R",
+                    "type": "Button",
+                    "id": "75acdf64-4414-44d7-b064-b63809c20372",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Release_Grip_L",
+                    "type": "Button",
+                    "id": "e21f2702-5581-48c4-95d3-dde50e039751",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Release_Grip_R",
+                    "type": "Button",
+                    "id": "e677c991-6eb4-412c-8890-2683a9f39c31",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b32544bb-4fa1-44a0-9818-4a7dcec793b5",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press_Grip_L",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8cdd68d2-e4d4-4e96-8d83-f3479dff810c",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press_Grip_R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d2d2a2fa-5291-4515-a518-27bec9332fe4",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release_Grip_L",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "06793ad1-0c03-4e47-af76-80a8d1c6e482",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release_Grip_R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
